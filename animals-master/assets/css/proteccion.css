@@ -2,9 +2,9 @@
 
 @import url('home.css');
 @import url('nuestraPalabra.css');
-@import url('grupOraciones.css');
-@import url('libros.css');
-@import url('contact.css');
+/* @import url('grupOraciones.css'); */
+/* @import url('libros.css'); */
+/* @import url('contact.css'); */
 @import url('footer.css');
 
 
@@ -250,3 +250,12 @@ section{
     font-size: 50%;
   }
 }
+
+
+
+
+
+
+
+
+
