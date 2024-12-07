@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
-@import url('home.css');
-@import url('nuestraPalabra.css');
-@import url('grupOraciones.css');
-@import url('libros.css');
-@import url('contact.css');
-@import url('footer.css');
-
+@import url('./home.css');
+@import url('./nuestraPalabra.css');
+@import url('./grupOraciones.css');
+@import url('./libros.css');
+@import url('./contact.css');
+@import url('./footer.css');
+@import url('./mediaQueries.css');
 
 :root{
   --main-color:#4fc242;
@@ -192,61 +192,3 @@ section{
 
 
 
-/* media queries  */
-@media (max-width:991px) {
-
-  html {
-    font-size: 55%;
-  }
-
-  .header {
-    padding: 1.5rem 2rem;
-  }
-
-  section {
-    padding: 2rem;
-  }
-}
-
-
-@media (max-width:768px) {
-
-  #menu-btn {
-    display: inline-block;
-  }
-
-  .header .navbar {
-    position: absolute;
-    top: 100%;
-    right: -100%;
-    background: #201f23;
-    width: 30rem;
-    height: calc(100vh - 9.5rem);
-  }
-
-  /* icono menu  */
-  .header .navbar.active {
-    right: 0;
-  }
-
-  .header .navbar a {
-    color: white;
-    display: block;
-    margin: 1.5rem;
-    padding: .5rem;
-    font-size: 2rem;
-  }
-
-  .header .search-form {
-    width: 90%;
-    right: 2rem;
-  }
-}
-
-
-@media (max-width:450px){
-
-  html{
-    font-size: 50%;
-  }
-}

@@ -1,3 +1,5 @@
+/* ESTE ARCHIVO SE DEBE DE ELIMINAR */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
 
 @import url('home.css');
@@ -113,9 +115,9 @@ section{
 }
 
 /* icono menu js */
-#menu-btn {
+/* #menu-btn {
   display: none;
-}
+} */
 
 /* formulario de busqueda */
 .header .search-form {
@@ -191,6 +193,9 @@ section{
 }
 
 
+/* ---------------------------------------------------------------------------------------- */
+
+
 
 /* media queries  */
 @media (max-width:991px) {
@@ -211,9 +216,9 @@ section{
 
 @media (max-width:768px) {
 
-  #menu-btn {
+  /* #menu-btn {
     display: inline-block;
-  }
+  } */
 
   .header .navbar {
     position: absolute;
@@ -250,12 +255,3 @@ section{
     font-size: 50%;
   }
 }
-
-
-
-
-
-
-
-
-
